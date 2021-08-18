@@ -1,0 +1,43 @@
+/*
+CHART
+*/
+.chart {
+  border: 1px solid #ccc;
+  height: 500px;
+  position: relative;
+}
+.vertical {
+  background-color: aqua;
+  height: 1px;
+  width: 100%;
+  position: absolute;
+}
+/*
+CANDLE
+*/
+.candle {
+  width: 50px;
+  position: absolute;
+  left: 50%;
+  top: 125px;
+  background-color: rgba(0, 255, 255, 0.05);
+  height: 250px;
+}
+.candle-body {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 32.5px;
+  background-color: rgb(0, 255, 64);
+  z-index: 1;
+}
+.candle-wick {
+  width: 5%;
+  height: 100%;
+  position: absolute;
+  left: 45%;
+  top: 0;
+  background-color: rgb(0, 255, 64);
+  z-index: 0;
+}
